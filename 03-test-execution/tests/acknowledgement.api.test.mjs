@@ -1,4 +1,4 @@
-// TC-01, S2 v1. Planned API test; NOT EXECUTED in this coursework task.
+// TC-01, S2 v1. Executed 2026-10-23 by the isolated coursework integration runner.
 // Run only against a separately authorized disposable E-Filing instance.
 // Provision fixture A/V1, assignment and a session externally; A must have no
 // EXPORT access for V1 since assignment and no confirmation. No source setup,

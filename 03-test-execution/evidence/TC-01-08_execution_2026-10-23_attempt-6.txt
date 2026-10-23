@@ -1,0 +1,40 @@
+TAP version 13
+# Runtime Node v22.23.1; database: isolated PostgreSQL; application: original source, no mocks
+# [BABEL] Note: The code generator has deoptimised the styling of F:\\Work\\myProject\\engse601-2026-PP\\tmp\\execution-2026-10-23\\vite-cache\\deps\\react-dom_client.js?v=68f2fd60 as it exceeds the max of 500KB.
+# Subtest: TC-02 System: real Chrome UI download does not confirm; explicit button records actor/version/time and one audit
+not ok 1 - TC-02 System: real Chrome UI download does not confirm; explicit button records actor/version/time and one audit
+  ---
+  duration_ms: 4688.6094
+  type: 'test'
+  location: 'F:\\Work\\myProject\\engse601-2026-PP\\03-test-execution\\tests\\acknowledgement-coursework.integration.mjs:122:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    204 !== 200
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 200
+  actual: 204
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (F:\Work\myProject\engse601-2026-PP\03-test-execution\tests\acknowledgement-coursework.integration.mjs:165:10)
+    process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# File request GET -> 204
+# File request failed: GET net::ERR_ABORTED
+# Browser file response: HTTP 204, disposition absent
+# Diagnostic backend fetch after browser failure: HTTP 200, disposition attachment; filename="document.pdf"; filename*=UTF-8''coursework.pdf
+# Diagnostic Vite-proxy fetch after browser failure: HTTP 200, disposition attachment; filename="document.pdf"; filename*=UTF-8''coursework.pdf
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5217.6647

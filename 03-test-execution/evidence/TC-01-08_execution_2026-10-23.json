@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-10-23T16:29:36.329836+00:00",
+  "finished_utc": "2026-10-23T16:29:42.858312+00:00",
+  "exit_code": 1,
+  "node": "v22.23.1",
+  "postgresql": "17.11",
+  "log": "TC-01-08_execution_2026-10-23.txt",
+  "source_head": "bd303e87429e0fc5ef18ea8bb36545e47c9f9e30",
+  "source_files_sha256": {
+    "efiling/api/src/app.ts": "29716b29b492fd0c12e91e928ddaeb2d4872079135e1a05bf91eb9fc33beeb58",
+    "efiling/api/src/services/acknowledgementService.ts": "0573747f1ccde5ccbc8d93d87324ca9912016dcda1a714569638f06981ac30f9",
+    "efiling/api/src/services/documentService.ts": "e1251749af2434983c56cafb98abb0acac4af5ea5d6a10d8a1bd08385c157466",
+    "efiling/api/src/services/documentRules.ts": "1eb0e270603a367c73c184fb2aa188493a6f501fe41d10d61216bfb028625cfe",
+    "efiling/api/src/lib/prisma.ts": "8a0b86ab1a1568f5b1c9efa3c07888bf68971550103bc09ea605adb6746d4485",
+    "efiling/api/src/middleware/auth.ts": "5bd1acaf37fa44c26b71a73c471c37e0e509fed0ca106f8a9687ad2b280d1a3f",
+    "efiling/api/src/middleware/session.ts": "7fde4f75491d127eb1ef7d9b0bb6715e864e121986b285b19719a74ed94bf107",
+    "efiling/frontend/src/pages/AcknowledgementsPage.tsx": "569b0fc588b6477741764bc7f5d587256b9c5aab8dbc175de11a45af243da0e0",
+    "prisma/schema.prisma": "71faad6942e260fbb03729698332ee3e1640130f3bee21147a7c03cad55d4921",
+    "prisma/migrations/20260919000100_initial/migration.sql": "94c9facf22e15d72ca27ab4af0b6ecd213c825d4633a5955c4c48a78060cdca6",
+    "prisma/migrations/20260919000200_constraints/migration.sql": "182c2cc8782a88e00694cfd8b1c6e06339b8a31227ece2e4a1c332af4ddd9bf1",
+    "prisma/migrations/20260919000300_central_source_confirmation/migration.sql": "a3313af3254e6f6f9c815765009def63f85c763d1318876d66993b23fd6393be",
+    "prisma/migrations/20260920000100_dar_workflow/migration.sql": "2b58fe65be23f8d019cb6433c13ddcafeae665fbe95b7b27654d1c89fd01e0dd",
+    "prisma/migrations/20260920000300_car_workflow/migration.sql": "2c54d112266b072fb9e6dde6219737c8752873aecdb24a70e773dca82b5dce25"
+  },
+  "test_sha256": "cc40f5f0efdde4ef9c4e2936cbcfb3b8da487feb23b1644c386cf0d2a1fef128",
+  "log_sha256": "0282bad4b5a575e07becc5efc25da3ad8a07b341cc6e8551539027049548ffa2",
+  "command": "node --import <EFILING_SOURCE_ROOT>/efiling/node_modules/tsx/dist/loader.mjs --test --test-reporter=tap --test-concurrency=1 03-test-execution/tests/acknowledgement-coursework.integration.mjs"
+}

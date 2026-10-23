@@ -10,6 +10,8 @@
 
 # Preserve the original bytes of the historical TAP evidence and its checksum.
 /03-test-execution/evidence/TC-01_api_2026-10-05.txt -text
+# Preserve raw terminal bytes, including CRLF and TAP indentation, for SHA256.
+/03-test-execution/evidence/*2026-10-23*.txt -text -whitespace
 # Reference copies retain the original source bytes as authorized by the owner.
 /INPUTS/requirements-srs/SRS_v1.md -text
 /INPUTS/design/Database_Design.md -text

@@ -13,6 +13,7 @@
 | 2026-10-23 | ปวริศ คูณศรี | Codex | กันแพ็ก local ที่มี Part A ออกจาก Git | checker พบ Part A 4 ไฟล์ในแพ็กที่ยังไม่ถูกติดตาม จึงเพิ่ม .gitignore เฉพาะโฟลเดอร์แพ็ก ไม่ลบงานหรือแก้ checker; เอกสารที่คัดเลือกใน INPUTS ยังนำส่งได้ | .gitignore / STATUS |
 | 2026-10-23 | ปวริศ คูณศรี | Codex | ปรับ component diagram ใน S1-B ตามคำขอ | สอบกลับส่วนประกอบและจุดบังคับกฎจาก source เดิม; คงเนื้อหาและแบบฟอร์มงานกลุ่ม; ไม่สร้างผลรัน | G6 · commit 94c996c |
 | 2026-10-23 | ปวริศ คูณศรี | Codex | จัดหน้าส่งงานและสรุปสถานะให้สอดคล้องไฟล์จริง | เทียบโครงสร้าง 5 เอกสารของ Team00; ตรวจ snapshot 9ba29f8/main, URL ไฟล์ 16 รายการ, ลิงก์ภายใน, privacy และ source hashes; ใช้คำยืนยันจากเจ้าของใน c3bee71/f670825; ไม่เปลี่ยน Not Executed เป็น PASS หรือแต่ง peer review/Gate/UAT | SUBMISSIONS / STATUS / PROJECT / TEAM / AI-LOG |
+| 2026-10-23 | ปวริศ คูณศรี | Codex | รันชุดรายวิชาจริงหลังผู้ใช้อนุญาตให้เริ่มระบบ/ฐานข้อมูล | ใช้ source application จริง ฐาน PostgreSQL/ไฟล์ fixture แยก; แก้ fixture hash ซ้ำ/สอง published versions และ diagnostic typo โดยไม่แก้ expected/application; เก็บทุก failure log; รอบรวมสุดท้าย Pass 7/Fail 1 (TC-02 browser download 204); ปฏิเสธการแต่ง PASS หรือ UAT; ตรวจภาพจริงและ metadata/hashes | G8 / tests / evidence / TEAM / PROJECT / STATUS / SUBMISSIONS |
 
 การยืนยันอ่านและอธิบายงานได้ของ ปวริศ คูณศรี บันทึกผ่าน STATUS.md (`f670825`); การตัดสิน support ของ W05 และการอนุมัติข้อเสนอ/Gate ต้องอาศัยหลักฐานของกิจกรรมนั้นแยกต่างหาก ไม่มีการลงชื่อหรือ approval แทน
 

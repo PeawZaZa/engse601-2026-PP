@@ -1,0 +1,96 @@
+TAP version 13
+# Runtime Node v22.23.1; database: isolated PostgreSQL; application: original source, no mocks
+# Subtest: TC-01 API: no access -> HTTP 409, zero confirmation and zero new ACKNOWLEDGE
+ok 1 - TC-01 API: no access -> HTTP 409, zero confirmation and zero new ACKNOWLEDGE
+  ---
+  duration_ms: 528.7238
+  type: 'test'
+  ...
+# Original black-box test executed successfully; database assertions verified separately in this case.
+# [BABEL] Note: The code generator has deoptimised the styling of F:\\Work\\myProject\\engse601-2026-PP\\tmp\\execution-2026-10-23\\vite-cache\\deps\\react-dom_client.js?v=1d160092 as it exceeds the max of 500KB.
+# Subtest: TC-02 System: real Chrome UI download does not confirm; explicit button records actor/version/time and one audit
+not ok 2 - TC-02 System: real Chrome UI download does not confirm; explicit button records actor/version/time and one audit
+  ---
+  duration_ms: 35154.3459
+  type: 'test'
+  location: 'F:\\Work\\myProject\\engse601-2026-PP\\03-test-execution\\tests\\acknowledgement-coursework.integration.mjs:122:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    page.waitForEvent: Timeout 30000ms exceeded while waiting for event "download"
+    =========================== logs ===========================
+    waiting for event "download"
+    ============================================================
+  code: 'ERR_TEST_FAILURE'
+  name: 'TimeoutError'
+  stack: |-
+    TestContext.<anonymous> (F:\Work\myProject\engse601-2026-PP\03-test-execution\tests\acknowledgement-coursework.integration.mjs:145:25)
+  ...
+# Subtest: TC-03 API: other readable user cannot confirm A assignment -> HTTP 403, no writes
+ok 3 - TC-03 API: other readable user cannot confirm A assignment -> HTTP 403, no writes
+  ---
+  duration_ms: 64.5554
+  type: 'test'
+  ...
+# Subtest: TC-04 API: B access cannot satisfy A -> HTTP 409, no writes
+ok 4 - TC-04 API: B access cannot satisfy A -> HTTP 409, no writes
+  ---
+  duration_ms: 53.2618
+  type: 'test'
+  ...
+# Subtest: TC-05 API: A access to V2 cannot satisfy assigned V1 -> HTTP 409, no writes
+not ok 5 - TC-05 API: A access to V2 cannot satisfy assigned V1 -> HTTP 409, no writes
+  ---
+  duration_ms: 10.1151
+  type: 'test'
+  location: 'F:\\Work\\myProject\\engse601-2026-PP\\03-test-execution\\tests\\acknowledgement-coursework.integration.mjs:176:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    
+    Invalid `db.documentVersion.create()` invocation in
+    F:\Work\myProject\engse601-2026-PP\03-test-execution\tests\acknowledgement-coursework.integration.mjs:64:46
+    
+      61   title: `ENGSE601 ${label} synthetic fixture`, docType: 'QP' } });
+      62 const versions = [];
+      63 for (let revision = 0; revision < (twoVersions ? 2 : 1); revision++) {
+    → 64   const version = await db.documentVersion.create(
+    Unique constraint failed on the fields: (`document_id`)
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    ei.handleRequestError (F:\Work\myProject\E-FIling-ISO-9001\efiling\node_modules\.prisma\client\runtime\library.js:125:7268)
+    ei.handleAndLogRequestError (F:\Work\myProject\E-FIling-ISO-9001\efiling\node_modules\.prisma\client\runtime\library.js:125:6593)
+    ei.request (F:\Work\myProject\E-FIling-ISO-9001\efiling\node_modules\.prisma\client\runtime\library.js:125:6300)
+    async a (F:\Work\myProject\E-FIling-ISO-9001\efiling\node_modules\.prisma\client\runtime\library.js:134:9551)
+    async fixture (F:\Work\myProject\engse601-2026-PP\03-test-execution\tests\acknowledgement-coursework.integration.mjs:64:21)
+    async TestContext.<anonymous> (F:\Work\myProject\engse601-2026-PP\03-test-execution\tests\acknowledgement-coursework.integration.mjs:177:13)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: TC-06 API: exact access at assignment minus 1 ms -> HTTP 409, no writes (Proposed AC)
+ok 6 - TC-06 API: exact access at assignment minus 1 ms -> HTTP 409, no writes (Proposed AC)
+  ---
+  duration_ms: 51.7694
+  type: 'test'
+  ...
+# Controlled synthetic access timestamp; result verifies implementation against Proposed PP-AC-03, not stakeholder approval.
+# Subtest: TC-07 API: exact access at assignment time -> HTTP 200, one confirmation/audit (Proposed AC)
+ok 7 - TC-07 API: exact access at assignment time -> HTTP 200, one confirmation/audit (Proposed AC)
+  ---
+  duration_ms: 53.9658
+  type: 'test'
+  ...
+# Exact boundary fixture; acceptance authority for PP-AC-03 remains unconfirmed.
+# Subtest: TC-08 API: duplicate confirm preserves id/time and exactly one confirmation/audit
+ok 8 - TC-08 API: duplicate confirm preserves id/time and exactly one confirmation/audit
+  ---
+  duration_ms: 65.9739
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 6
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 36458.539
