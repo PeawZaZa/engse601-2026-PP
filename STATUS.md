@@ -12,7 +12,7 @@
 - [x] กรอก INPUTS/input-register.md พร้อม version/source of truth
 - [x] คัดลอก SRS v1.2, Database Design v0.2 และ Case X SRS v1.0 เข้า INPUTS ตามคำสั่งผู้ใช้; SHA256 ตรงต้นฉบับทุกไฟล์ ใช้สำเนาเป็นแหล่งอ้างอิงหลัก
 - [x] ตรวจไฟล์ที่เปลี่ยนด้วย checker และ PDF/DOCX XML extraction: ไม่พบรูปแบบรหัสนักศึกษาหรือ credential ที่ตรวจหา; ไม่เก็บ Part A coursework
-- [ ] สมาชิกยืนยันอ่านและอธิบายงานได้; ยังไม่ลงชื่อแทน
+- [x] สมาชิกยืนยันอ่านและอธิบายงานได้; ยังไม่ลงชื่อแทน
 
 ## Submission ledger
 
