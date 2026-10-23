@@ -1,9 +1,4 @@
 dr_id,risk,root_cause_in_design_doc,affected_req_or_ac,level,impact_on_testability,proposal_or_question,owner,due_date,status
-DR-01,Overall Readiness ถูกคำนวณที่ชั้นหน้าจอ,HLD D-03,FR-X-05 · BR-X-01 · AC-X-05,สูง,AC-X-05 ทดสอบที่ระดับ Service ไม่ได้,ย้ายการคำนวณไปชั้น Application,สถาปนิกระบบ,,Open
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+DR-01,ผู้ใช้ตีความ cache เป็นข้อมูลปัจจุบัน,I-06 ไม่มี Source/Last-checked และ D-02 cache,FR-X-02 / AC-X-03,สูง (ข้อเสนอ),ออกแบบ assertion เรื่องที่มา/เวลาไม่ได้,ถาม contract และการแสดงอายุข้อมูล,PP ประสานผู้สอน,ก่อนส่ง 2026-10-23,Open — AI proposal
+DR-02,Readiness อาจต่างกันตาม UI ที่โหลด,C-01 / D-03; ไม่พบ trigger ฝั่ง Service ในร่าง,FR-X-05 / AC-X-05,สูง (ข้อเสนอ),ไม่ทราบจุดตรวจค่ากลางเมื่อเรียกข้าม UI,ถาม authoritative calculation และ trigger,PP ประสานผู้สอน,ก่อนส่ง 2026-10-23,Open — AI proposal
+DR-03,ประวัติข้าม Service อาจขาด revision/actor,C-10 history แยก; I-05 ไม่แจกแจง field,FR-X-09 / AC-X-09,สูง (ข้อเสนอ),ยังสร้าง oracle ข้าม revision ไม่ครบ,ถาม schema และขอบเขต transaction,PP ประสานผู้สอน,ก่อนส่ง 2026-10-23,Open — AI proposal

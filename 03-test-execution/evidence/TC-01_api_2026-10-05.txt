@@ -1,0 +1,56 @@
+TAP version 13
+# Subtest: IT-ACK-001 access predating assignment is insufficient; fresh authorized access permits explicit acknowledgement
+ok 1 - IT-ACK-001 access predating assignment is insufficient; fresh authorized access permits explicit acknowledgement
+  ---
+  duration_ms: 2599.197
+  type: 'test'
+  ...
+# Subtest: acknowledgements: DCC assigns readable published versions and recipients confirm only their own version
+ok 2 - acknowledgements: DCC assigns readable published versions and recipients confirm only their own version
+  ---
+  duration_ms: 2520.7972
+  type: 'test'
+  ...
+# Subtest: audit rounds and findings enforce membership, independence, evidence, and scope
+ok 3 - audit rounds and findings enforce membership, independence, evidence, and scope
+  ---
+  duration_ms: 2432.5173
+  type: 'test'
+  ...
+# Subtest: CAR/NCR workflow preserves permissions, revisions, evidence and invalid transition guards
+ok 4 - CAR/NCR workflow preserves permissions, revisions, evidence and invalid transition guards
+  ---
+  duration_ms: 4577.3974
+  type: 'test'
+  ...
+# Dashboard acknowledgements read failed P2021
+# Dashboard acknowledgements read failed P2021
+# Dashboard acknowledgements read failed P2021
+# Dashboard audit read failed P2021
+# Subtest: dashboard counts real data inside each role scope
+ok 5 - dashboard counts real data inside each role scope
+  ---
+  duration_ms: 2543.114
+  type: 'test'
+  ...
+# Subtest: registry API: private files, pending review, rollback, duplicate protection and persistence
+ok 6 - registry API: private files, pending review, rollback, duplicate protection and persistence
+  ---
+  duration_ms: 2372.378
+  type: 'test'
+  ...
+# Subtest: records: create with evidence, search by scope, and authorize downloads
+ok 7 - records: create with evidence, search by scope, and authorize downloads
+  ---
+  duration_ms: 2320.3346
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 22292.6562

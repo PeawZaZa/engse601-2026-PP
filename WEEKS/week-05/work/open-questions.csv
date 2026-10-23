@@ -1,9 +1,4 @@
 dq_id,question,source,who_must_answer,due_date,blocks_what,status,answer,answered_by
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
+DQ-01,I-06 ส่ง Source/Last-checked หรือไม่ แสดง cache อย่างไร,AC-X-03 / I-06,ผู้สอน/ผู้ออกแบบ Case X; PP ประสาน,ก่อนส่ง 2026-10-23,TR-01 contract/observable,Open,ยังไม่มีคำตอบ,ยังไม่มี
+DQ-02,ใครคำนวณ readiness ที่เชื่อถือได้หลัง writeDecision โดยไม่เปิด UI,AC-X-05 / D-03,ผู้สอน/ผู้ออกแบบ Case X; PP ประสาน,ก่อนส่ง 2026-10-23,TR-02 responsibility,Open,ยังไม่มีคำตอบ,ยังไม่มี
+DQ-03,Actor Reason Timestamp Revision ผูก Decision และการแก้ไขอย่างไร,FR-X-09 / I-05 / C-10,ผู้สอน/ผู้ออกแบบ Case X; PP ประสาน,ก่อนส่ง 2026-10-23,TR-03 trace completeness,Open,ยังไม่มีคำตอบ,ยังไม่มี

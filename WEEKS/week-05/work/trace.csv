@@ -1,9 +1,4 @@
 tr_id,req_id,req_version,ac_id,what_design_must_support,component_id,component_name,evidence_location_in_design_doc,support_status,observation_point,linked_dr,linked_dq,notes
-TR-01,FR-X-05,1.0,AC-X-05,Derive Overall Readiness จาก Required Item Decisions,C-01,Event Request UI,HLD ตาราง 2 และ D-03,Not Supported,Service,DR-01,,ขัด BR-X-01
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
+TR-01,FR-X-02,1.0,AC-X-03,Availability ต้องมี Source/Last-checked,C-07,Availability Adapter,HLD ตาราง 2 C-07; ตาราง 3 I-06; D-02,Not Verifiable,ระหว่างส่วนประกอบ,DR-01,DQ-01,ยกชื่อจากเอกสารตรง; รอมนุษย์ตัดสิน support ไม่ใช่ผลตรวจทีม
+TR-02,FR-X-05,1.0,AC-X-05 / BR-X-01,แยก Item Decision/Overall Readiness และไม่ Ready เมื่อ Required ยังไม่อนุมัติ,C-01,Event Request UI,HLD ตาราง 2 C-01; D-03; ตาราง 4 Event Store,Not Verifiable,ปลายทางผู้ใช้,DR-02,DQ-02,ผู้ตรวจต้องตัดสินความเพียงพอของการคำนวณ UI เอง
+TR-03,FR-X-09,1.0,AC-X-09,Actor Reason Timestamp Revision ของการตัดสินใจ/แก้ไข,C-05 / C-10,Decision Service / Data Store,HLD ตาราง 2 C-05/C-10; ตาราง 3 I-05; ตาราง 4,Not Verifiable,ระหว่างส่วนประกอบ,DR-03,DQ-03,เอกสารระบุบันทึก Decision และ history; completeness รอมนุษย์ตรวจ

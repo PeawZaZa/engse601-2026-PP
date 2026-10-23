@@ -2,34 +2,34 @@
 
 ## Evidence reviewed
 
-- SRS/Requirement version: [กรอก]
-- W03-OUT: [path/version]
-- Review Log: `02-srs-review-log.md` commit [กรอก]
-- RTM v1: `03-rtm-lite.csv` commit [กรอก]
-- Reviewers/decision owner/date: [กรอก]
+- SRS/Requirement version: SRS v1.2 Working Draft — Implementation Reconciled @ bd303e8
+- W03-OUT: week-03/work/critical-requirement-review.md v1
+- Review Log: 02-srs-review-log.md ร่างท้องถิ่น ยังไม่ commit
+- RTM v1: 03-rtm-lite.csv ร่างท้องถิ่น ยังไม่ commit
+- Reviewers/decision owner/date: ผู้ตรวจอิสระยังไม่ยืนยัน; Codex เสนอเกณฑ์ให้ ปวริศ คูณศรี ตรวจ 2026-10-23
 
 ## Decision
 
-เลือกเพียงหนึ่งสถานะ
-
-- [ ] `Ready` — ไม่มี unresolved critical issue; critical requirements มี acceptance basis และ trace เพียงพอสำหรับ Phase 2
-- [ ] `Conditional` — ไปต่อเฉพาะส่วนที่ระบุ พร้อม conditions, owner และ due
-- [ ] `Not Ready` — ยังมี blocker ที่ทำให้ test/design basis สำคัญตัดสินไม่ได้
+- [ ] `Ready`
+- [x] `Conditional` — **ข้อเสนอเพื่อให้เจ้าของตรวจ ไม่ใช่ Gate ที่ทีมอนุมัติแล้ว**
+- [ ] `Not Ready`
 
 ## Evidence-based rationale
 
-[อ้าง Finding IDs, Requirement IDs, RTM rows และ open decisions ที่สนับสนุนคำตัดสิน]
+RV-01–03 และ RTM สามแถวมีต้นทาง/AC/code/test references เพียงพอให้ร่าง test design ต่อได้ แต่ exact-time boundary และ independent review ยังไม่พร้อม จึงไม่ใช้ข้อเสนอเป็น baseline หรือยืนยันการรับงาน
 
 ## Conditions / blockers / actions
 
 | ID | Condition or blocker | Affected requirement / Phase 2 work | Action | Owner | Due | Re-check evidence |
-|---|---|---|---|---|---|---|
-| GA-01 | [กรอก] | [W05/W06/W07/W08 + item] | [กรอก] | [กรอก] | [กรอก] | [กรอก] |
+| --- | --- | --- | --- | --- | --- | --- |
+| GA-01 | ยังไม่มีผู้ตรวจอิสระ | ทุก REQ; W04/W05 | หาอาจารย์/ผู้ตรวจภายนอกผู้เขียน | ปวริศ คูณศรี | ก่อนส่ง | review จริงพร้อมวันที่ |
+| GA-02 | ยังไม่ยืนยัน inclusive time boundary | FR-A-14; TC-06/07 | ยืนยัน PP-AC-03 หรือคง Proposed | ปวริศ คูณศรี | ก่อนตัดสินผล | มติจริงที่เปิดเผยได้ |
+| GA-03 | ไม่มี environment แยก/ผู้ใช้ UAT | B1 System/UAT | ขออนุญาตเตรียมระบบแยกและนัดตัวแทน | ปวริศ คูณศรี | ก่อนรันและก่อนรับรอง | ผลจริง/ภาพ/บันทึกผู้ใช้ที่ยินยอม |
 
 ## Sign-off
 
-- Requirement owner/representative: [ชื่อ/วันที่/หลักฐาน หรือ `Not Available`]
-- Reviewer: [ชื่อ/วันที่]
-- Team: [ชื่อ/วันที่]
+- Requirement owner/representative: Not Available
+- Reviewer: Not Available
+- Team: PP / รอ ปวริศ คูณศรี ตรวจ; ยังไม่ลงชื่อ
 
-Sign-off นี้เป็นบันทึกการทบทวนในรายวิชา ไม่ควรอ้างเป็นการอนุมัติจาก stakeholder หากไม่มีหลักฐานจริง
+ไม่อ้าง sign-off รายวิชาเป็นการอนุมัติของ stakeholder

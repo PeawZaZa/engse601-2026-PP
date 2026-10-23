@@ -1,9 +1,4 @@
 hf_id,dimension,fact_with_location,inference,missing_evidence,leads_to
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+HF-01,Data/Interface,HLD I-06 output เป็น available true/false; C-07 cache 15 นาที,อาจพิสูจน์ความสด/ที่มาที่ผู้ใช้เห็นไม่ได้ตาม AC-X-03,Source/Last-checked ใน contract; คนต้องยืนยันการตีความ,DR-01 / DQ-01
+HF-02,Responsibility,HLD C-01 และ D-03 คำนวณ readiness ใน UI,ถ้าไม่ได้เปิด UI อาจไม่ทราบว่าค่า Event Store อัปเดตเมื่อใด,ตัวคำนวณ/trigger เมื่อบันทึก Decision; ต้องให้ผู้ตรวจประเมิน,DR-02 / DQ-02
+HF-03,Traceability,HLD C-10 แต่ละ Service เก็บประวัติเอง; I-05 รับ Decision Record,อาจยังไม่พอสอบกลับการแก้ไขข้าม Service,schema/atomicity และ Actor Reason Timestamp Revision ที่ครบ,DR-03 / DQ-03

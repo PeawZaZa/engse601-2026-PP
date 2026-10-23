@@ -20,3 +20,7 @@ Thumbs.db
 *.log
 tmp/
 temp/
+
+# Historical local student pack contains individual Part A work.
+# Publish only the selected references and group deliverables in course folders.
+/ENGSE601_S1_Student_Pack/
