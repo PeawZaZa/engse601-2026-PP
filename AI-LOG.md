@@ -14,6 +14,7 @@
 | 2026-10-23 | ปวริศ คูณศรี | Codex | ปรับ component diagram ใน S1-B ตามคำขอ | สอบกลับส่วนประกอบและจุดบังคับกฎจาก source เดิม; คงเนื้อหาและแบบฟอร์มงานกลุ่ม; ไม่สร้างผลรัน | G6 · commit 94c996c |
 | 2026-10-23 | ปวริศ คูณศรี | Codex | จัดหน้าส่งงานและสรุปสถานะให้สอดคล้องไฟล์จริง | เทียบโครงสร้าง 5 เอกสารของ Team00; ตรวจ snapshot 9ba29f8/main, URL ไฟล์ 16 รายการ, ลิงก์ภายใน, privacy และ source hashes; ใช้คำยืนยันจากเจ้าของใน c3bee71/f670825; ไม่เปลี่ยน Not Executed เป็น PASS หรือแต่ง peer review/Gate/UAT | SUBMISSIONS / STATUS / PROJECT / TEAM / AI-LOG |
 | 2026-10-23 | ปวริศ คูณศรี | Codex | รันชุดรายวิชาจริงหลังผู้ใช้อนุญาตให้เริ่มระบบ/ฐานข้อมูล | ใช้ source application จริง ฐาน PostgreSQL/ไฟล์ fixture แยก; แก้ fixture hash ซ้ำ/สอง published versions และ diagnostic typo โดยไม่แก้ expected/application; เก็บทุก failure log; รอบรวมสุดท้าย Pass 7/Fail 1 (TC-02 browser download 204); ปฏิเสธการแต่ง PASS หรือ UAT; ตรวจภาพจริงและ metadata/hashes | G8 / tests / evidence / TEAM / PROJECT / STATUS / SUBMISSIONS |
+| 2026-10-23 | ปวริศ คูณศรี | Codex | แก้คำอธิบาย TC-02 หลังผู้ใช้ชี้แจงว่า IDM รับไฟล์แล้วกดยกเลิก และยืนยัน Pass | บันทึก Pass เป็นคำยืนยันผู้ใช้แยกจาก raw TAP 7/1; ไม่แก้ log/expected/ภาพ และไม่แต่งการกด confirm หรือตรวจ audit ผ่าน UI ที่ผู้ใช้ยังไม่ได้ระบุ | G8 / evidence README / STATUS / SUBMISSIONS / PROJECT / TEAM |
 
 การยืนยันอ่านและอธิบายงานได้ของ ปวริศ คูณศรี บันทึกผ่าน STATUS.md (`f670825`); การตัดสิน support ของ W05 และการอนุมัติข้อเสนอ/Gate ต้องอาศัยหลักฐานของกิจกรรมนั้นแยกต่างหาก ไม่มีการลงชื่อหรือ approval แทน
 

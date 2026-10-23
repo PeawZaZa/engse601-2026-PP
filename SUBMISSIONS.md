@@ -37,7 +37,7 @@
 | G5 | W05 Requirement-to-Design Trace | [W05_PP_Requirement-to-Design-Trace_v1.pdf](WEEKS/week-05/submission/W05_PP_Requirement-to-Design-Trace_v1.pdf) | Gate B | ส่งแล้ว | Case X SRS v1.0/HLD v0.9; trace/risk/RTM 3 แถว; คำตัดสิน support และการตรวจข้ามทีมยังไม่มีหลักฐาน |
 | G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | [S1-B_PP.pdf](01-plan/S1-B_PP.pdf) | Evidence Pack | ส่งแล้ว | ครบ 7 ขั้น พร้อม diagram จุดบังคับกฎ; แผนที่สร้างย้อนหลังจาก source จริง |
 | G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | [S2-B_PP.pdf](02-test-design/S2-B_PP.pdf) | Evidence Pack | ส่งแล้ว | ออกแบบ 8 TC; ไม่ใช่ผลรัน; ยังไม่มี independent review และข้อยืนยันขอบเวลา |
-| G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | [execution-report.md](03-test-execution/execution-report.md) · [tests/](03-test-execution/tests/) · [evidence/](03-test-execution/evidence/) | Evidence Pack | ส่งแล้ว | เพิ่มผลรันจริง 23 ต.ค.: API Pass 7, System TC-02 Fail ที่ browser download; มี raw TAP/metadata/ภาพ; UAT ยัง Not Executed เพราะไม่มีผู้ใช้จริง |
+| G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | [execution-report.md](03-test-execution/execution-report.md) · [tests/](03-test-execution/tests/) · [evidence/](03-test-execution/evidence/) | Evidence Pack | ส่งแล้ว | API Pass 7 + TC-02 Pass ตามคำยืนยันผู้ใช้เรื่อง IDM/กดยกเลิก; คง raw TAP เดิม 7/1 แยกจากคำยืนยัน; UAT ยัง Not Executed |
 | G9 | ใบงานรวม 3–4 ส่วน B3 หน้าที่และการใช้ AI | [TEAM.md](TEAM.md) · [AI-LOG.md](AI-LOG.md) | Evidence Pack | ส่งแล้ว | ระบุสมาชิก ผู้ส่ง หน้าที่ และ AI ตามจริง; ข้อมูลผู้ส่ง/คำยืนยันปรับบน main หลัง snapshot แรก |
 
 **สถานะที่ใช้:** `ส่งแล้ว` · `ส่งบางส่วน` (เขียนในหมายเหตุว่าขาดอะไร) · `ไม่ได้ทำ` (เขียนเหตุผล) · `แก้หลังส่ง` (บอกว่าแก้อะไร)

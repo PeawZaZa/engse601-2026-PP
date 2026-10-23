@@ -52,6 +52,10 @@ TC-06/07 ใช้ audit timestamp fixture ที่ควบคุมไว้�
 
 รอบรวมสุดท้ายใช้ code ที่แก้ fixture/diagnostic แล้ว ผลยัง Pass 7/Fail 1 ตาม raw TAP; Chrome เป็น automated System check ไม่ใช่ manual acceptance หรือ UAT
 
+## User confirmation — 2026-10-23
+
+ปวริศ คูณศรี ชี้แจงในบทสนทนาว่า “มันขึ้นใน IDM เลยกดยกเลิกไป เอาเป็นว่ามันผ่าน” จึงบันทึก TC-02 เป็น **Pass ตามคำยืนยันผู้ใช้** และแก้การตีความว่า browser download ล้มเหลวเป็นการส่งต่อ IDM/ยกเลิกโดยผู้ใช้ คำชี้แจงนี้ไม่ได้ระบุว่าได้กด explicit confirm หรือตรวจ actor/version/time/audit ผ่าน UI แล้ว จึงไม่เพิ่มข้อกล่าวอ้างเหล่านั้น ไม่สร้างภาพ IDM หรือแก้ raw TAP/metadata ให้เป็น 8 automated passes
+
 ## Missing acceptance evidence
 
 UAT-01 ยัง Not Executed เพราะไม่มีผู้ใช้จริงเข้าร่วม และ TC-02 ยังไม่จบเส้นทาง download → explicit confirm ผ่าน UI Owner ปวริศ คูณศรี ต้องประสานผู้รับ/DCC และบันทึกการทดสอบจริงก่อนรับรอง UAT ไม่มีผล UAT จำลอง
