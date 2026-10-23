@@ -19,24 +19,26 @@
 | ชื่อทีม (`<TeamName>` ภาษาอังกฤษ ไม่มีช่องว่าง ใช้ชื่อเดียวกันทุกไฟล์) | PP |
 | โครงงาน ENGSE212 | E-Filing Phase 1 |
 | feature ที่ใช้ทดสอบ (เลือกในใบงานครั้งที่ 1) | ยืนยันรับทราบเอกสารหลังเข้าถึงฉบับที่ได้รับมอบหมาย (คงตัวเลือกเดิม) |
-| ผู้ส่งหลัก | ปวริศ คูณศรี (รอยืนยันผู้ส่งหลัก) |
+| ผู้ส่งหลัก | ปวริศ คูณศรี ([PeawZaZa](https://github.com/PeawZaZa)) |
 | ลิงก์ repo นี้ | https://github.com/PeawZaZa/engse601-2026-PP |
 
-Progress checkpoint 2026-10-23: บันทึกร่าง G1–G9 ด้วย Git ตามคำสั่งผู้ใช้; ยังไม่สร้าง Release และยังไม่ถือว่าส่ง; ช่องสถานะส่งยังไม่ทำเครื่องหมาย
+รายการส่งงานทีม PP วันที่ 2026-10-23: ตรวจพบไฟล์ G1–G9 ครบใน [snapshot `engse601-submit` (`9ba29f8`)](https://github.com/PeawZaZa/engse601-2026-PP/tree/9ba29f804c4cb1b6d00d4e07c877a50872dfb4f9) และบน `main` แล้ว เอกสารสถานะและข้อมูลสมาชิกปรับปรุงต่อบน `main` ดูสรุปใน [STATUS.md](STATUS.md)
+
+สถานะในตารางหมายถึงการส่งเอกสาร ไม่ใช่ผลทดสอบ การอนุมัติ Gate หรือการยอมรับของผู้ใช้ รายการที่ยังรอตรวจหรือยังไม่รันทดสอบระบุไว้ตามหลักฐานจริงในหมายเหตุและเอกสารที่ส่ง
 
 ## งานที่ต้องส่ง
 
 | # | งาน | ไฟล์และตำแหน่ง | นับเข้า | สถานะ | หมายเหตุ |
 |---|---|---|---|---|---|
-| G1 | W01 Quality Risk Cards | [Quality Risk Cards](WEEKS/week-01/submission/W01_PP_Quality-Risk-Cards_v1.pdf) | จิตพิสัย | [ ] | เตรียม PDF 3 risk cards แล้ว; รอเจ้าของ/peer ตรวจ; ยังไม่ส่ง |
-| G2 | W02 Project Quality Route Map | [Project Quality Route Map](WEEKS/week-02/submission/W02_PP_Project-Quality-Route-Map_v1.pdf) | จิตพิสัย | [ ] | เตรียม route map แล้ว; ยังไม่จัด Gate/peer review จริง; ยังไม่ส่ง |
-| G3 | W03 Revised Critical Requirements | [Revised Critical Requirement](WEEKS/week-03/submission/W03_PP_Revised-Critical-Requirements_v1.pdf) | Gate A | [ ] | เตรียม 3 requirements และ Proposed AC; รอยืนยันขอบเวลา/ผู้ตรวจ; ยังไม่ส่ง |
-| G4 | W04 SRS Review, RTM Lite และ Gate A | [SRS Review, RTM Lite และ Gate A](WEEKS/week-04/submission/W04_PP_SRS-Review-and-RTM_v1.pdf) | Gate A | [ ] | เตรียม review draft/RTM 3 แถว; Conditional เป็นข้อเสนอ ไม่มี sign-off; ยังไม่ส่ง |
-| G5 | W05 Requirement-to-Design Trace | [Requirement-to-Design Trace](WEEKS/week-05/submission/W05_PP_Requirement-to-Design-Trace_v1.pdf) | Gate B | [ ] | มี Case X SRS1.0/HLD0.9; trace/risk/RTM 3 แถว; รอมนุษย์ตัดสิน support/ตรวจข้ามทีม; ยังไม่ส่ง |
-| G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | [S1B](01-plan/S1-B_PP.pdf)  | Evidence Pack | [ ] | กรอกแบบฟอร์มเดิมเฉพาะ B แล้ว; แผนที่ย้อนหลัง; รอเจ้าของตรวจ; ยังไม่ส่ง |
-| G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | [S2B](02-test-design/S2-B_PP.pdf) | Evidence Pack | [ ] | ออกแบบ 8 TC v1 ไม่มีคอลัมน์ผลจริง; รอ independent review/ยืนยันเวลา; ยังไม่ส่ง |
-| G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | `03-test-execution/` คือ `execution-report.md` (หรือ `S34-B1_PP.pdf`) · `tests/` · `evidence/` | Evidence Pack | [ ] | มีโค้ด API ใหม่/ลิงก์ source และ log เดิมตรง bytes; 8 TC ใหม่+System/UAT ยังไม่รัน; ยังไม่ส่ง |
-| G9 | ใบงานรวม 3–4 ส่วน B3 หน้าที่และการใช้ AI | [TEAM.md](TEAM.md) · [AI-LOG.md](AI-LOG.md) | Evidence Pack | [ ] | มีสมาชิกตามผู้ใช้แจ้ง/AI disclosure จริง; รอ GitHub username บทบาทผู้ส่ง และเจ้าตัวยืนยัน; ยังไม่ส่ง |
+| G1 | W01 Quality Risk Cards | [W01_PP_Quality-Risk-Cards_v1.pdf](WEEKS/week-01/submission/W01_PP_Quality-Risk-Cards_v1.pdf) | จิตพิสัย | ส่งแล้ว | 3 risk cards พร้อมผลกระทบและลำดับความสำคัญ |
+| G2 | W02 Project Quality Route Map | [W02_PP_Project-Quality-Route-Map_v1.pdf](WEEKS/week-02/submission/W02_PP_Project-Quality-Route-Map_v1.pdf) | จิตพิสัย | ส่งแล้ว | Route map เชื่อมงานและหลักฐาน; ไม่ใช่บันทึกอนุมัติ Gate |
+| G3 | W03 Revised Critical Requirements | [W03_PP_Revised-Critical-Requirements_v1.pdf](WEEKS/week-03/submission/W03_PP_Revised-Critical-Requirements_v1.pdf) | Gate A | ส่งแล้ว | 3 requirements พร้อม Proposed AC; ขอบเวลายังเป็นข้อเสนอรอยืนยัน |
+| G4 | W04 SRS Review, RTM Lite และ Gate A | [W04_PP_SRS-Review-and-RTM_v1.pdf](WEEKS/week-04/submission/W04_PP_SRS-Review-and-RTM_v1.pdf) | Gate A | ส่งแล้ว | Review log และ RTM 3 แถว; Conditional เป็นข้อเสนอ ไม่มี independent sign-off |
+| G5 | W05 Requirement-to-Design Trace | [W05_PP_Requirement-to-Design-Trace_v1.pdf](WEEKS/week-05/submission/W05_PP_Requirement-to-Design-Trace_v1.pdf) | Gate B | ส่งแล้ว | Case X SRS v1.0/HLD v0.9; trace/risk/RTM 3 แถว; คำตัดสิน support และการตรวจข้ามทีมยังไม่มีหลักฐาน |
+| G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | [S1-B_PP.pdf](01-plan/S1-B_PP.pdf) | Evidence Pack | ส่งแล้ว | ครบ 7 ขั้น พร้อม diagram จุดบังคับกฎ; แผนที่สร้างย้อนหลังจาก source จริง |
+| G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | [S2-B_PP.pdf](02-test-design/S2-B_PP.pdf) | Evidence Pack | ส่งแล้ว | ออกแบบ 8 TC; ไม่ใช่ผลรัน; ยังไม่มี independent review และข้อยืนยันขอบเวลา |
+| G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | [execution-report.md](03-test-execution/execution-report.md) · [tests/](03-test-execution/tests/) · [evidence/](03-test-execution/evidence/) | Evidence Pack | ส่งแล้ว | แยก log เดิม 5 ต.ค. ออกจากชุดใหม่; 8 TC ใหม่ และงาน System/UAT เป็น Not Executed พร้อมเหตุผล |
+| G9 | ใบงานรวม 3–4 ส่วน B3 หน้าที่และการใช้ AI | [TEAM.md](TEAM.md) · [AI-LOG.md](AI-LOG.md) | Evidence Pack | ส่งแล้ว | ระบุสมาชิก ผู้ส่ง หน้าที่ และ AI ตามจริง; ข้อมูลผู้ส่ง/คำยืนยันปรับบน main หลัง snapshot แรก |
 
 **สถานะที่ใช้:** `ส่งแล้ว` · `ส่งบางส่วน` (เขียนในหมายเหตุว่าขาดอะไร) · `ไม่ได้ทำ` (เขียนเหตุผล) · `แก้หลังส่ง` (บอกว่าแก้อะไร)
 
@@ -54,7 +56,7 @@ Progress checkpoint 2026-10-23: บันทึกร่าง G1–G9 ด้ว
 
 1. วางไฟล์ตามตารางด้านบน แล้ว commit และ push · ตั้งชื่อไฟล์ตามตารางทุกตัวอักษร
 2. กรอกตาราง “งานที่ต้องส่ง” ในหน้านี้ให้ครบ
-3. ผู้ส่งหลักสร้าง Release: หน้า repo → **Releases** → **Draft a new release** → Choose a tag พิมพ์ `engse601-submit` → **Create new tag** → ตั้งชื่อ `engse601-submit` → **Publish release**
+3. ผู้ส่งหลักตรวจ commit ที่ใช้ส่งผ่านหน้า repo → **Releases** โดยให้ tag อ้างอิง commit ที่มีไฟล์และเอกสารสถานะฉบับส่งครบถ้วน
 4. ผู้ส่งหลักกรอกลิงก์ repo ในฟอร์มลงทะเบียนทีมที่ผู้สอนแจก
 
 แก้หลังสร้าง Release ได้ก่อนกำหนดส่ง โดยสร้าง Release ใหม่ชื่อ `engse601-submit-v2` · ผู้สอนตรวจ Release ล่าสุดที่สร้างก่อนกำหนดส่ง
@@ -65,8 +67,8 @@ Progress checkpoint 2026-10-23: บันทึกร่าง G1–G9 ด้ว
 
 ## ตรวจก่อนส่ง
 
-- [ ] ชื่อไฟล์ใช้ `<TeamName>` เดียวกันทุกไฟล์ และตรงกับตาราง
-- [ ] ไม่มีรหัสนักศึกษาและไม่มีส่วน A ใน repo
-- [ ] `03-test-execution/` มีโค้ดทดสอบใน `tests/` และผลการรันจริงใน `evidence/` (หรือ Not Executed พร้อมเหตุผล)
-- [ ] TEAM.md บอกว่าใครทำส่วนไหน · AI-LOG.md กรอกแล้ว หรือเขียนว่าไม่ได้ใช้
-- [ ] สร้าง Release `engse601-submit` แล้ว
+- [x] ชื่อไฟล์ใช้ `<TeamName>` เดียวกันทุกไฟล์ และตรงกับตาราง
+- [x] ไฟล์ที่ติดตามด้วย Git ไม่มีรหัสนักศึกษาและไม่มีงานเดี่ยวส่วน A; ไม่รวม StudentPack บนเครื่อง
+- [x] `03-test-execution/` มีโค้ดทดสอบใน `tests/` และผลการรันจริงใน `evidence/` แยกจาก Not Executed พร้อมเหตุผล
+- [x] TEAM.md บอกว่าใครทำส่วนไหน · AI-LOG.md เปิดเผยการใช้ AI แล้ว
+- [x] ตรวจไฟล์ G1–G9 ใน snapshot `engse601-submit` (`9ba29f8`) และชื่อไฟล์ตามตารางแล้ว

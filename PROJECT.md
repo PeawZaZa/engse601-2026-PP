@@ -1,6 +1,6 @@
 # Project Profile — ENGSE212 × ENGSE601
 
-> Progress checkpoint วันที่ 2026-10-23; ร่างรอตรวจ ยังไม่สร้าง Release หรือประกาศส่ง
+> ข้อมูลโครงงานและแหล่งอ้างอิง ณ 2026-10-23; สถานะส่งเอกสารดู [SUBMISSIONS.md](SUBMISSIONS.md)
 
 ## ข้อมูลโครงงาน
 
@@ -41,14 +41,14 @@
 - ระบบหรือบริการภายนอกที่พึ่งพา: PostgreSQL/ไฟล์จัดเก็บ; ยังไม่มี environment แยกที่อนุญาตให้รันทดสอบรายวิชา
 - ข้อมูลส่วนบุคคล/ข้อมูลลับที่เกี่ยวข้อง: บัญชี เอกสารองค์กร และข้อมูลรับทราบ ไม่คัดลอกข้อมูลจริง
 - สิ่งที่ห้ามส่งให้เครื่องมือ AI หรือเผยแพร่สาธารณะ: credential, .env, token, รหัสนักศึกษา, งานเดี่ยวส่วน A และเอกสารลับต้นฉบับ
-- ข้อตกลงอื่นของทีม/หน่วยงาน: E-Filing อ่านอย่างเดียว; ผู้ใช้สั่ง commit/push ความคืบหน้า ENGSE601 ในรอบนี้; ยังไม่สร้าง Release
+- ข้อตกลงอื่นของทีม/หน่วยงาน: E-Filing อ่านอย่างเดียว; งานกลุ่มและเอกสารอ้างอิงที่อนุญาตให้เผยแพร่อยู่ใน ENGSE601 เท่านั้น; ไม่เผยแพร่งานเดี่ยว
 
 ## Current truth
 
 - Requirement/SRS version ที่ใช้อยู่: สำเนาอ้างอิง `INPUTS/requirements-srs/SRS_v1.md`;  SRS v1.2 Working Draft — Implementation Reconciled; มีข้อความ implementation discrepancy ที่ล้ากว่าโค้ดใน UC-A-10; ยังไม่แก้ต้นทาง
 - Design version ที่ใช้อยู่: GroupB_Architecture_Decisions.md ADR-01–03/05 ใช้บริบทเท่านั้น; แผนที่ Ack จากโค้ดใน S1 สร้างย้อนหลัง ไม่อ้างเป็น HLD ที่อนุมัติแล้ว
 - Latest build/commit ที่อ้างอิง: `bd303e87429e0fc5ef18ea8bb36545e47c9f9e30`; ไม่อ้างว่าเป็น commit ของการรัน 5 ต.ค. ซึ่ง metadata ไม่ระบุ commit
-- อัปเดตล่าสุดโดย/วันที่: Codex ตามคำขอของ ปวริศ คูณศรี / 2026-10-23; รอเจ้าของตรวจ
+- อัปเดตล่าสุดโดย/วันที่: Codex ตามคำขอของ ปวริศ คูณศรี / 2026-10-23; คงสถานะ Draft และข้อจำกัดของแหล่งอ้างอิงตามจริง
 
 Remote visibility update 2026-10-23: ผู้ใช้เปลี่ยน source repo เป็น Public; agent ตรวจอ่านเท่านั้น. SRS v1.2/implementation/test evidence ที่ใช้ทำงานยังยึด local bd303e8; remote f8cc942 มีบางไฟล์ต่างหรือขาด ดู INPUTS/project-links.md ไม่เปลี่ยน requirement หรือผลการทดสอบ
 

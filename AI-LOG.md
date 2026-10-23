@@ -11,7 +11,9 @@
 | 2026-10-23 | ปวริศ คูณศรี | Codex | ตรวจ GitHub หลังผู้ใช้เปลี่ยน source repo เป็น Public และแก้ references | ยืนยัน visibility; remote f8cc942 เทียบ local bd303e8: ตรง 7 ต่าง 5 ไม่พบ 5; เลิกใช้ URL commit ที่ยังไม่พบ remote โดยไม่เปลี่ยนหลักฐานเดิมหรือ push | INPUTS / PROJECT / STATUS |
 | 2026-10-23 | ปวริศ คูณศรี | Codex | คัดลอกเอกสารอ้างอิงจาก local เข้า INPUTS ตามคำสั่งผู้ใช้ | ตรวจ PII/credential ที่กำหนดและ SHA256; คงต้นฉบับ SRS/Database Design/Case X SRS ทุก byte; ไม่คัดลอก Proposal หรือ source code; ไม่อ้าง institutional approval | INPUTS / PROJECT |
 | 2026-10-23 | ปวริศ คูณศรี | Codex | กันแพ็ก local ที่มี Part A ออกจาก Git | checker พบ Part A 4 ไฟล์ในแพ็กที่ยังไม่ถูกติดตาม จึงเพิ่ม .gitignore เฉพาะโฟลเดอร์แพ็ก ไม่ลบงานหรือแก้ checker; เอกสารที่คัดเลือกใน INPUTS ยังนำส่งได้ | .gitignore / STATUS |
+| 2026-10-23 | ปวริศ คูณศรี | Codex | ปรับ component diagram ใน S1-B ตามคำขอ | สอบกลับส่วนประกอบและจุดบังคับกฎจาก source เดิม; คงเนื้อหาและแบบฟอร์มงานกลุ่ม; ไม่สร้างผลรัน | G6 · commit 94c996c |
+| 2026-10-23 | ปวริศ คูณศรี | Codex | จัดหน้าส่งงานและสรุปสถานะให้สอดคล้องไฟล์จริง | เทียบโครงสร้าง 5 เอกสารของ Team00; ตรวจ snapshot 9ba29f8/main, URL ไฟล์ 16 รายการ, ลิงก์ภายใน, privacy และ source hashes; ใช้คำยืนยันจากเจ้าของใน c3bee71/f670825; ไม่เปลี่ยน Not Executed เป็น PASS หรือแต่ง peer review/Gate/UAT | SUBMISSIONS / STATUS / PROJECT / TEAM / AI-LOG |
 
-ข้อเสนอที่รับ/แก้/ปฏิเสธต้องให้ ปวริศ คูณศรี ตรวจและยืนยันอีกครั้งก่อนส่ง ไม่มีการลงชื่อ/approval แทน
+การยืนยันอ่านและอธิบายงานได้ของ ปวริศ คูณศรี บันทึกผ่าน STATUS.md (`f670825`); การตัดสิน support ของ W05 และการอนุมัติข้อเสนอ/Gate ต้องอาศัยหลักฐานของกิจกรรมนั้นแยกต่างหาก ไม่มีการลงชื่อหรือ approval แทน
 
-Progress checkpoint 2026-10-23: ผู้ใช้สั่งตรวจและ commit/push งานกลุ่ม พร้อมยืนยัน ownership และให้รวม SRS/Database Design หลังแจ้งข้อความจำกัดการเผยแพร่. กัน StudentPack/Part A/รหัสนักศึกษาออก; ไม่สร้าง Release หรือผลรันใหม่
+ผู้ใช้ยืนยัน ownership และสั่งให้รวม SRS/Database Design หลังแจ้งข้อความจำกัดการเผยแพร่ คงต้นฉบับและ hash ตาม INPUTS; กัน StudentPack/งานเดี่ยว/รหัสนักศึกษาออกจากไฟล์ที่เผยแพร่ ไม่สร้างผลทดสอบหรือคำยืนยันกิจกรรมย้อนหลัง
