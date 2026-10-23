@@ -28,13 +28,13 @@ Progress checkpoint 2026-10-23: บันทึกร่าง G1–G9 ด้ว
 
 | # | งาน | ไฟล์และตำแหน่ง | นับเข้า | สถานะ | หมายเหตุ |
 |---|---|---|---|---|---|
-| G1 | W01 Quality Risk Cards | `WEEKS/week-01/submission/W01_PP_Quality-Risk-Cards_v1.pdf` | จิตพิสัย | [ ] | เตรียม PDF 3 risk cards แล้ว; รอเจ้าของ/peer ตรวจ; ยังไม่ส่ง |
-| G2 | W02 Project Quality Route Map | `WEEKS/week-02/submission/W02_PP_Project-Quality-Route-Map_v1.pdf` | จิตพิสัย | [ ] | เตรียม route map แล้ว; ยังไม่จัด Gate/peer review จริง; ยังไม่ส่ง |
-| G3 | W03 Revised Critical Requirements | `WEEKS/week-03/submission/W03_PP_Revised-Critical-Requirements_v1.pdf` | Gate A | [ ] | เตรียม 3 requirements และ Proposed AC; รอยืนยันขอบเวลา/ผู้ตรวจ; ยังไม่ส่ง |
-| G4 | W04 SRS Review, RTM Lite และ Gate A | `WEEKS/week-04/submission/W04_PP_SRS-Review-and-RTM_v1.pdf` | Gate A | [ ] | เตรียม review draft/RTM 3 แถว; Conditional เป็นข้อเสนอ ไม่มี sign-off; ยังไม่ส่ง |
-| G5 | W05 Requirement-to-Design Trace | `WEEKS/week-05/submission/W05_PP_Requirement-to-Design-Trace_v1.pdf` | Gate B | [ ] | มี Case X SRS1.0/HLD0.9; trace/risk/RTM 3 แถว; รอมนุษย์ตัดสิน support/ตรวจข้ามทีม; ยังไม่ส่ง |
-| G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | `01-plan/S1-B_PP.pdf` **เฉพาะส่วน B** | Evidence Pack | [ ] | กรอกแบบฟอร์มเดิมเฉพาะ B แล้ว; แผนที่ย้อนหลัง; รอเจ้าของตรวจ; ยังไม่ส่ง |
-| G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | `02-test-design/S2-B_PP.pdf` | Evidence Pack | [ ] | ออกแบบ 8 TC v1 ไม่มีคอลัมน์ผลจริง; รอ independent review/ยืนยันเวลา; ยังไม่ส่ง |
+| G1 | W01 Quality Risk Cards | [Quality Risk Cards](WEEKS/week-01/submission/W01_PP_Quality-Risk-Cards_v1.pdf) | จิตพิสัย | [ ] | เตรียม PDF 3 risk cards แล้ว; รอเจ้าของ/peer ตรวจ; ยังไม่ส่ง |
+| G2 | W02 Project Quality Route Map | [Project Quality Route Map](WEEKS/week-02/submission/W02_PP_Project-Quality-Route-Map_v1.pdf) | จิตพิสัย | [ ] | เตรียม route map แล้ว; ยังไม่จัด Gate/peer review จริง; ยังไม่ส่ง |
+| G3 | W03 Revised Critical Requirements | [Revised Critical Requirement](WEEKS/week-03/submission/W03_PP_Revised-Critical-Requirements_v1.pdf) | Gate A | [ ] | เตรียม 3 requirements และ Proposed AC; รอยืนยันขอบเวลา/ผู้ตรวจ; ยังไม่ส่ง |
+| G4 | W04 SRS Review, RTM Lite และ Gate A | [SRS Review, RTM Lite และ Gate A](WEEKS/week-04/submission/W04_PP_SRS-Review-and-RTM_v1.pdf) | Gate A | [ ] | เตรียม review draft/RTM 3 แถว; Conditional เป็นข้อเสนอ ไม่มี sign-off; ยังไม่ส่ง |
+| G5 | W05 Requirement-to-Design Trace | [Requirement-to-Design Trace](WEEKS/week-05/submission/W05_PP_Requirement-to-Design-Trace_v1.pdf) | Gate B | [ ] | มี Case X SRS1.0/HLD0.9; trace/risk/RTM 3 แถว; รอมนุษย์ตัดสิน support/ตรวจข้ามทีม; ยังไม่ส่ง |
+| G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | [S1B](01-plan/S1-B_PP.pdf)  | Evidence Pack | [ ] | กรอกแบบฟอร์มเดิมเฉพาะ B แล้ว; แผนที่ย้อนหลัง; รอเจ้าของตรวจ; ยังไม่ส่ง |
+| G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | [S2B](02-test-design/S2-B_PP.pdf) | Evidence Pack | [ ] | ออกแบบ 8 TC v1 ไม่มีคอลัมน์ผลจริง; รอ independent review/ยืนยันเวลา; ยังไม่ส่ง |
 | G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | `03-test-execution/` คือ `execution-report.md` (หรือ `S34-B1_PP.pdf`) · `tests/` · `evidence/` | Evidence Pack | [ ] | มีโค้ด API ใหม่/ลิงก์ source และ log เดิมตรง bytes; 8 TC ใหม่+System/UAT ยังไม่รัน; ยังไม่ส่ง |
 | G9 | ใบงานรวม 3–4 ส่วน B3 หน้าที่และการใช้ AI | [TEAM.md](TEAM.md) · [AI-LOG.md](AI-LOG.md) | Evidence Pack | [ ] | มีสมาชิกตามผู้ใช้แจ้ง/AI disclosure จริง; รอ GitHub username บทบาทผู้ส่ง และเจ้าตัวยืนยัน; ยังไม่ส่ง |
 
